@@ -41,7 +41,7 @@ tr:nth-of-type(odd){
 .headerima{
     position: relative; /* To order the page */
     float:left; /* To order the page on one specific side*/
-    width: 1300px;
+    width: 1246px;
     height: 250px;
 }
 
@@ -56,39 +56,36 @@ tr:nth-of-type(odd){
 
 .navbar {
     display: flex;
-    background-color: rgba(0, 0, 255, 0.728);
-    width: 1300px;
+    background-color: rgba(1, 1, 77, 0.728);
+    width: 1247px;
     position: relative; /* To order the page */
     float: left; /* To order the page on one specific side*/
-    top: -125px;
+    top: -165px;
 }
 
 .nav-list {
     list-style-type: none;/* To delate the boulets */
-    margin: 20px;
+    margin: 10px;
     padding: 0;
 }
 
 .nav-list li {
     display: inline; /* to create a list horizontal  */
-    margin-right: 20px; /* To separate the options in the list*/
-    
-padding-top: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-padding-right: 10px;
-
 }
 
 .nav-list li a {
     text-decoration: none; /* To delate the undercore in the link*/
     color: white; /* To change de color of the letter in the link*/
     font-size: 18px;
+    padding-left: 115px;
+    padding-right: 115px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
-.nav-list li:hover { /* To change the color on hover on the link text */
-    color: black;
-    background-color: #ffd700;
+.nav-list li a:hover { /* To change the color on hover on the link text */
+    color: rgba(1, 1, 77, 0.728);;
+    background-color: white;
 }
 
 .bodyima1{
@@ -108,6 +105,22 @@ padding-right: 10px;
 }
 
 .bodytex{
+    position: relative; /* To order the page */
+    float: left; /* To order the page on one specific side*/
+    width: 700px;
+    bottom: 130px;
+    left: 90px;
+}
+
+.bodytit1{
+    position: relative; /* To order the page */
+    float: left; /* To order the page on one specific side*/
+    width: 300px;
+    bottom: 100px;
+    left: 35px;
+}
+
+.bodytex1{
     position: relative; /* To order the page */
     float: left; /* To order the page on one specific side*/
     width: 700px;
